@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0c4b50ae.css",
+    "main.js": "/static/js/main.00b79afa.js",
+    "static/js/453.68d2f560.chunk.js": "/static/js/453.68d2f560.chunk.js",
+    "static/media/ibm-plex-sans-devanagari-devanagari-400-normal.woff2": "/static/media/ibm-plex-sans-devanagari-devanagari-400-normal.05f9c551270e0ae39817.woff2",
+    "static/media/ibm-plex-sans-devanagari-devanagari-400-normal.woff": "/static/media/ibm-plex-sans-devanagari-devanagari-400-normal.da9077115c2cfce02ff4.woff",
+    "static/media/ibm-plex-sans-devanagari-latin-400-normal.woff2": "/static/media/ibm-plex-sans-devanagari-latin-400-normal.be549f7ba89441b8de48.woff2",
+    "static/media/ibm-plex-sans-devanagari-latin-400-normal.woff": "/static/media/ibm-plex-sans-devanagari-latin-400-normal.5546930d310374c9fce5.woff",
+    "static/media/ibm-plex-sans-devanagari-latin-ext-400-normal.woff2": "/static/media/ibm-plex-sans-devanagari-latin-ext-400-normal.ea2d9fe37841b567d7ae.woff2",
+    "static/media/ibm-plex-sans-devanagari-latin-ext-400-normal.woff": "/static/media/ibm-plex-sans-devanagari-latin-ext-400-normal.c6157987fe293a2c40af.woff",
+    "static/media/ibm-plex-sans-devanagari-cyrillic-ext-400-normal.woff2": "/static/media/ibm-plex-sans-devanagari-cyrillic-ext-400-normal.7cc9947111aa60f6acc4.woff2",
+    "static/media/ibm-plex-sans-devanagari-cyrillic-ext-400-normal.woff": "/static/media/ibm-plex-sans-devanagari-cyrillic-ext-400-normal.63408ada419e3a9afa33.woff",
+    "index.html": "/index.html",
+    "main.0c4b50ae.css.map": "/static/css/main.0c4b50ae.css.map",
+    "main.00b79afa.js.map": "/static/js/main.00b79afa.js.map",
+    "453.68d2f560.chunk.js.map": "/static/js/453.68d2f560.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c4b50ae.css",
+    "static/js/main.00b79afa.js"
+  ]
+}
