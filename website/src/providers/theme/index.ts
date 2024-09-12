@@ -8,18 +8,22 @@ const theme = createTheme({
     primary: {
       // light: "",
       main: MAIN_THEME_COLOR,
+      
     },
     secondary: {
-      main: "#0d0c22",
+      main: "#EAEAEA",
     },
-    // background: {
-    //   default: "",
-    // },
+    background: {
+      default: "",
+    },
     divider: MAIN_THEME_COLOR,
   },
 
   typography: {
-    fontFamily: "Space Grotesk",
+    fontFamily: 'Inter, Arial, sans-serif',
+    allVariants:{
+      color:'#1B2B44'
+    }
   },
   shape: {
     borderRadius: 8,
@@ -52,7 +56,7 @@ const theme = createTheme({
     MuiButton: {
       styleOverrides: {
         root: {
-          textTransform: "none",
+          textTransform: "uppercase",
         },
       },
     },

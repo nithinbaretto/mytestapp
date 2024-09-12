@@ -70,15 +70,11 @@ function NavbarForMobile(props: Props) {
     },
     {
       id: 1,
-      name: "Use Cases",
+      name: "Plans",
     },
     {
       id: 1,
-      name: "Pricing",
-    },
-    {
-      id: 1,
-      name: "Blog",
+      name: "Success Stories",
     },
   ];
 
@@ -92,7 +88,23 @@ function NavbarForMobile(props: Props) {
           onClick={handleDrawerOpen}
           sx={{ ...(open && { display: "none" }), p: 0, m: 0 }}
         >
-          <Menu />
+          <Box
+            border="1px solid #ffffff"
+            sx={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              height: 32,
+              width: 44,
+              borderRadius: 1,
+            }}
+          >
+            <Menu
+              style={{
+                color: "#ffffff",
+              }}
+            />
+          </Box>
         </IconButton>
       </Grid>
 

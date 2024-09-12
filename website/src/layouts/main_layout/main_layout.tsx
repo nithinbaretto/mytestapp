@@ -8,23 +8,21 @@ import Footer from "../../views/components/footer/footer";
 export default function MainLayout({ children }: PropsWithChildren<{}>) {
   return (
     <BaseLayout>
-      <Grid container justifyContent={"center"}>
+      <Grid container justifyContent={"center"} position={"relative"}>
         <Box
           sx={{
             display: "flex",
             position: "fixed",
             top: 0,
             width: "100%",
-            zIndex: 9999,
+            zIndex: 1000,
             height: 90,
-            backgroundColor: "#ffffff",
+            // backgroundColor: "#ffffff",
           }}
         >
-          <Grid item md={1} lg={1} />
-          <Grid item md={10} lg={10} sm={12} xs={12}>
+          <Grid item md={12} lg={12} sm={12} xs={12}>
             <Navbar />
           </Grid>
-          <Grid item md={1} lg={1} />
         </Box>
         <Grid md={1} lg={1} />
         <Grid item md={10} lg={10} sm={12} xs={12}>
